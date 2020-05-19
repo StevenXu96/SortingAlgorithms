@@ -66,7 +66,7 @@ class Visualizer extends React.Component{
 
     mergeSort() {
         if (this.state.array.length === 0){
-            alert("please adjust the size.")
+            alert("Please adjust the size, then click \"Generate New Array\".")
         }
         else {
             this.setState({
@@ -92,7 +92,7 @@ class Visualizer extends React.Component{
 
     quickSort(){
         if (this.state.array.length === 0){
-            alert("please adjust the size.")
+            alert("Please adjust the size, then click \"Generate New Array\".")
         }
         else {
             this.setState({
@@ -123,7 +123,7 @@ class Visualizer extends React.Component{
 
     bubbleSort(){
         if (this.state.array.length === 0){
-            alert("please adjust the size.")
+            alert("Please adjust the size, then click \"Generate New Array\".")
         }
         else {
             this.setState({
@@ -149,7 +149,7 @@ class Visualizer extends React.Component{
 
     insertionSort(){
         if (this.state.array.length === 0){
-            alert("please adjust the size.")
+            alert("Please adjust the size, then click \"Generate New Array\".")
         }
         else {
             this.setState({
@@ -179,7 +179,7 @@ class Visualizer extends React.Component{
 
     heapSort(){
         if (this.state.array.length === 0){
-            alert("please adjust the size.")
+            alert("Please adjust the size, then click \"Generate New Array\".")
         }
         else{
             this.setState({
