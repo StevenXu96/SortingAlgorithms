@@ -247,7 +247,7 @@ class Visualizer extends React.Component{
                                            style={{marginLeft: "5px"}}/>
                                     <br />
                                     <label>Size</label>
-                                    <input type="range" min="50" max="560" value={this.state.size} onChange={this.handleChange} name="size"
+                                    <input type="range" min="50" max="280" value={this.state.size} onChange={this.handleChange} name="size"
                                            style={{marginLeft: "22px"}}/>
                                     <br />
                                     <label>Height</label>

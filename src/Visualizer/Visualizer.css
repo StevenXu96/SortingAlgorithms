@@ -1,4 +1,6 @@
-
+:root{
+    --bar-width: 5px
+}
 
 .array-container{
     position: absolute;
@@ -10,11 +12,17 @@
     position: center;
     margin-left: 210px;
     width: max-content;
-    height: 480px
+    height: 480px;
+}
+
+@media (max-width: 1800px){
+    :root{
+        --bar-width: 2px;
+    }
 }
 
 .array-bar{
-    width: 2px;
+    width: var(--bar-width) !important;
     display: inline-block;
     margin: 0 1px;
 }
